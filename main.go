@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var a, b int
-	fmt.Scan(&a)
-	fmt.Scan(&b)
-	var sum = a + b
-	fmt.Println(sum)
+	var w, h int
+	fmt.Scan(&w)
+	fmt.Scan(&h)
+	area := w * h
+	fmt.Println(area)
 }
